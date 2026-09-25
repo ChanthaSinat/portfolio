@@ -4,7 +4,7 @@ export const portfolio = {
   initials: 'CS',
   role: 'Student & Aspiring Software Developer',
   location: 'Phnom Penh, Cambodia',
-  email: 'chanthasinatzxc@gmail.com',
+  email: 'sinatchantha8@gmail.com',
   intro:
     'I turn ideas into useful digital experiences with thoughtful design, clear code, and a focus on the people who use them.',
   about:
