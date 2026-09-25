@@ -203,8 +203,13 @@ function App() {
                   <h3>{project.title}</h3>
                   <p>{project.description}</p>
                   <TagList tags={project.tags} />
-                  <a className="project-link" href={project.link}>
-                    View project <ArrowIcon />
+                  <a
+                    className="project-link"
+                    href={project.link}
+                    target={project.external ? '_blank' : undefined}
+                    rel={project.external ? 'noreferrer' : undefined}
+                  >
+                    {project.linkLabel || 'View project'} <ArrowIcon />
                   </a>
                 </div>
               </article>

@@ -473,15 +473,15 @@ Before handoff or deployment, run both `npm run lint` and `npm run build`.
 - Vercel output directory: `dist`
 - No environment variables are currently required.
 
-For normal updates:
+## Git Workflow
 
-```bash
-git add -A
-git commit -m "Describe the change"
-git push
-```
-
-Once Vercel is connected to the repository, a push to `main` should trigger a new production deployment.
+- Keep related edits local while the website is still being refined.
+- Do not create a commit after every small change.
+- Run `npm run lint` and `npm run build` when appropriate before proposing a commit.
+- Create a commit only when the user explicitly asks, or after agreeing that a meaningful feature or design milestone is complete.
+- Before committing, summarize exactly which changes will be included.
+- Push to GitHub only when the user explicitly asks, or when the team is ready to update production.
+- Once Vercel is connected to the repository, a push to `main` triggers a new production deployment.
 
 ## Change Rules for Future Sessions
 

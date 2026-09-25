@@ -39,14 +39,16 @@ export const portfolio = {
   projects: [
     {
       title: 'GoLoca',
-      category: 'Local discovery mobile app',
+      category: 'Cambodia local discovery app',
       description:
-        'GoLoca helps people discover restaurants, cafés, and local places based on their mood, vibe, and nearby options, with handpicked local recommendations.',
+        'GoLoca helps people discover handpicked restaurants, cafés, bars, and weekend getaways across Cambodia, with local deals, reservations, and digital loyalty features.',
       tags: ['Flutter', 'Product Design', 'Local Discovery'],
       image: '/images/GoLoca Logo_GoLoca App.png',
       imageAlt: 'GoLoca logo',
       featured: true,
-      link: '#contact',
+      link: 'https://goloca.travel/en',
+      linkLabel: 'Visit GoLoca',
+      external: true,
     },
     {
       title: 'Portfolio Website',
