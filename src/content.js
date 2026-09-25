@@ -1,48 +1,67 @@
-// Edit this file when you want to update your portfolio content.
+// Edit this file to update the portfolio's personal details and project content.
 export const portfolio = {
   name: 'Chantha Sinat',
   initials: 'CS',
-  role: 'Student & Aspiring Software Developer',
+  role: 'Developer • Builder • AI Explorer',
   location: 'Phnom Penh, Cambodia',
   email: 'sinatchantha8@gmail.com',
-  intro:
-    'I turn ideas into useful digital experiences with thoughtful design, clear code, and a focus on the people who use them.',
-  about:
-    'I am a curious developer who enjoys learning how products move from an early idea to a polished, working experience. I care about clean interfaces, practical problem-solving, and building software that feels easy to use.',
+  github: 'https://github.com/ChanthaSinat',
+  profileImage: '/images/profile.PNG',
   availability: 'Open to internships and collaborative projects',
-  skills: [
-    'React',
-    'JavaScript',
-    'HTML & CSS',
-    'Flutter',
-    'Git & GitHub',
-    'Responsive Design',
-    'UI/UX',
-    'Problem Solving',
+  intro:
+    'I’m a developer and product builder interested in AI, automation, mobile apps, and thoughtful digital experiences. Away from the screen, I recharge through nature and hiking.',
+  about:
+    'I enjoy turning curious ideas into clear, useful products. My work sits between technology and calm, human-centred design—from mobile apps and digital products to experiments with AI and automation.',
+  values: [
+    ['Mobile development', 'Building focused experiences for people on the move.'],
+    ['AI & automation', 'Using practical tools to explore, prototype, and improve workflows.'],
+    ['Product design', 'Making complex ideas feel clear, calm, and easy to use.'],
+    ['Always learning', 'Growing through projects, feedback, nature, and curiosity.'],
+  ],
+  skillGroups: [
+    {
+      title: 'Development',
+      skills: ['Flutter', 'Dart', 'JavaScript', 'React'],
+    },
+    {
+      title: 'AI & Automation',
+      skills: ['AI tools', 'Codex', 'Prompting', 'Workflow thinking'],
+    },
+    {
+      title: 'Design',
+      skills: ['Figma', 'UI/UX', 'Product design'],
+    },
+    {
+      title: 'Tools',
+      skills: ['Git', 'GitHub', 'Vercel', 'Firebase'],
+    },
   ],
   projects: [
     {
-      number: '01',
+      title: 'GoLoca',
+      category: 'Local discovery mobile app',
+      description:
+        'GoLoca helps people discover restaurants, cafés, and local places based on their mood, vibe, and nearby options, with handpicked local recommendations.',
+      tags: ['Flutter', 'Product Design', 'Local Discovery'],
+      image: '/images/GoLoca Logo_GoLoca App.png',
+      imageAlt: 'GoLoca logo',
+      featured: true,
+      link: '#contact',
+    },
+    {
       title: 'Portfolio Website',
+      category: 'Personal brand',
       description:
-        'A fast, responsive personal website built to present my work, skills, and experience with a focused visual system.',
-      tags: ['React', 'Vite', 'CSS'],
+        'A responsive personal portfolio designed to present selected work, technical interests, and the person behind the products.',
+      tags: ['React', 'Vite', 'UI/UX'],
       link: '#contact',
     },
     {
-      number: '02',
-      title: 'Mobile App Project',
-      description:
-        'A mobile-first product concept that turns a real user need into a clear and approachable app experience.',
-      tags: ['Flutter', 'Mobile UI', 'UX'],
-      link: '#contact',
-    },
-    {
-      number: '03',
       title: 'Management System',
+      category: 'Team project',
       description:
         'A practical web application for organizing day-to-day operations, information, and team workflows.',
-      tags: ['Web App', 'Team Project', 'Git'],
+      tags: ['Web App', 'Git', 'Product Thinking'],
       link: '#contact',
     },
   ],
@@ -52,7 +71,7 @@ export const portfolio = {
       title: 'Building & Learning',
       place: 'Independent projects',
       description:
-        'Strengthening my frontend, mobile development, and product design skills through hands-on projects.',
+        'Strengthening frontend, mobile development, product design, and AI-assisted workflow skills through hands-on work.',
     },
     {
       period: '2023 — Present',
