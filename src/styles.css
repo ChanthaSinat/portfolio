@@ -170,16 +170,6 @@ h1, h2, h3 { font-family: 'Manrope', sans-serif; }
   stroke-width: 1.7;
 }
 
-.hero-eyebrow { color: #c8d8c8; }
-
-.status-dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: var(--accent);
-  box-shadow: 0 0 0 5px rgba(168, 214, 106, 0.13);
-}
-
 h1 {
   max-width: 880px;
   margin-bottom: 28px;

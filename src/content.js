@@ -2,7 +2,6 @@
 export const portfolio = {
   name: 'Chantha Sinat',
   initials: 'CS',
-  role: 'Developer • Builder • AI Explorer',
   location: 'Phnom Penh, Cambodia',
   email: 'sinatchantha8@gmail.com',
   github: 'https://github.com/ChanthaSinat',
@@ -56,7 +55,8 @@ export const portfolio = {
       description:
         'A responsive personal portfolio designed to present selected work, technical interests, and the person behind the products.',
       tags: ['React', 'Vite', 'UI/UX'],
-      link: '#contact',
+      link: 'https://github.com/ChanthaSinat/portfolio',
+      external: true,
     },
     {
       title: 'Management System',
@@ -64,7 +64,8 @@ export const portfolio = {
       description:
         'A practical web application for organizing day-to-day operations, information, and team workflows.',
       tags: ['Web App', 'Git', 'Product Thinking'],
-      link: '#contact',
+      link: 'https://github.com/OuThorninvithyea/beverage-warehouse-inventory-system.git',
+      external: true,
     },
   ],
   journey: [

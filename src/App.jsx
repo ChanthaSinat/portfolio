@@ -111,7 +111,6 @@ function App() {
           <div className="hero-glow hero-glow-one" />
           <div className="hero-glow hero-glow-two" />
           <div className="hero-copy">
-            <p className="eyebrow hero-eyebrow"><span className="status-dot" /> {portfolio.role}</p>
             <h1>Building thoughtful digital experiences with <span>technology, AI, and automation.</span></h1>
             <p className="hero-intro">{portfolio.intro}</p>
             <div className="hero-actions">
